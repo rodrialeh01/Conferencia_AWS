@@ -149,3 +149,7 @@ sudo yum install -y git
 - Siempre que termines de usar la máquina virtual, recuerda detenerla para no seguir generando costos.
 
 - Cuando ya no necesites la máquina virtual, recuerda terminarla para no seguir generando costos.
+
+### Contacto
+
+rodrialehdl@gmail.com
