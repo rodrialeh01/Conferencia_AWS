@@ -114,6 +114,32 @@ sudo yum install -y golang
 sudo yum install -y git
 ```
 
+### Habilitar el puerto de la API
+
+1. En la consola de AWS, selecciona la máquina virtual y selecciona "Seguridad".
+
+![img seguridad](./imgs/img21.png)
+
+2. Selecciona el grupo de seguridad.
+
+![img grupo](./imgs/img22.png)
+
+3. Ve a reglas de entrada y selecciona "Editar reglas de entrada".
+
+![img entrada](./imgs/img23.png)
+
+4. Selecciona el botón de "Agregar regla".
+
+![img regla](./imgs/img24.png)
+
+5. Agrega la siguiente configuración y en el puerto escribes el puerto de tu API, en este caso puerto 3000.
+
+![img regla2](./imgs/img25.png)
+
+6. Selecciona "Guardar reglas".
+
+![img guardar](./imgs/img26.png)
+
 ### Recomendaciones
 
 - Al iniciar sesión en la máquina virtual, se usa el usuario de ```ec2-user```. Para ejecutar comandos como superusuario, se debe usar ```sudo```.
@@ -122,4 +148,4 @@ sudo yum install -y git
 
 - Siempre que termines de usar la máquina virtual, recuerda detenerla para no seguir generando costos.
 
-
+- Cuando ya no necesites la máquina virtual, recuerda terminarla para no seguir generando costos.
